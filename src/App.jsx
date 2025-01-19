@@ -44,6 +44,7 @@ function handleClick(pokemonName){
     if (isClicked) {
       setHighestScore((prevHighestScore) => Math.max(prevHighestScore, score));
       setScore(0);
+      setPokemons((prevPokemons) => shuffled([...prevPokemons]));
       return [];
     } else {
       setScore((prevScore) => prevScore + 1);
