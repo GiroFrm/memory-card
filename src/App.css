@@ -4,7 +4,10 @@ body{
   font-family: "Acme";
   min-height: 100vh;
   background-color: #3e6623;
- 
+   /* display: flex;
+   flex-direction: column;
+   align-items: center;
+} */
 }
 
 .container {
@@ -21,8 +24,8 @@ body{
   background-image: linear-gradient(#000, #3e6623);
   padding: 1rem 2rem;
   color: #b8860b;
-  width: 100%;
-
+  width: 100vw;
+ 
 }
 
 .header--left {
@@ -34,17 +37,12 @@ body{
 
 }
 
-.header--right {
-  
-}
-
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 1.5rem;
-  justify-content: center;
- 
+  justify-content: center; 
+  
 }
 
 .card{ 
