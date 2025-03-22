@@ -1,6 +1,10 @@
 # Memory-Card-App
 
-This is a SPA (Single Page Application) PokemonGame
+This is a SPA (Single Page Application) PokemonGame. 
+Players match Pokémon cards using data from the PokeAPI.
+Get points by clicking on an image but don't click on any more than once!
+
+![Homepage Screenshot](public/screen.png)
 
 ## How to Access Accessory Avenue
 
@@ -21,10 +25,5 @@ E-commerce is hosted on **Vercell**. You can access it [here](https://ecomm-type
 
 Deployed on **Vercell** for fast and reliable hosting.
 
-# Pages
 
-## Home
-![Homepage Screenshot](public/Home.png)
 
-## Cart
-![Homepage Screenshot](public/Cart.png)
