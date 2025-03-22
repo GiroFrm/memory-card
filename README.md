@@ -8,7 +8,7 @@ Get points by clicking on an image but don't click on any more than once!
 
 ## How to Access Accessory Avenue
 
-E-commerce is hosted on **Vercell**. You can access it [here](https://ecomm-typescript-arav.vercel.app/).
+E-commerce is hosted on **Vercell**. You can access it [here](https://memory-card-bay-omega.vercel.app/).
 
 ## Features
 - **Responsive Design**: Ensures a responsive design for all screen sizes.
