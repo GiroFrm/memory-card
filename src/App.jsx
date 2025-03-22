@@ -58,11 +58,18 @@ function handleClick(pokemonName){
   return (
  
     <div className="container">
+    
       <header className="header">
-      <p>Get points by clicking on an image but don't click on any more than once! {clicked}</p>
-      <p>Score: {score}</p>
-      <p>HighestScore: {highestScore}</p>
+        <section className='header--left'>
+          <h1>Pokemo Memory Game</h1>
+          <p>Get points by clicking on an image but don't click on any more than once!</p>
+        </section>
+        <section className='header-right'>
+        <p>Score: {score}</p>
+        <span>Best score: {highestScore}</span>
+        </section>
       </header>
+      
       <div className='cards-wrapper'>
       { pokemons.map((pokemon)=>(
        <Card
